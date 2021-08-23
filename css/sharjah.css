@@ -1,0 +1,220 @@
+/* for emirated pariking button */
+.button{
+padding: 10px 30px;
+background: rgba(184,186,183,255);
+border: none;
+border-radius: 25px;
+width: 450px;
+height: 135px
+
+}
+.button1 {
+padding: 10px 30px;
+background: rgba(184,186,183,255);
+border: none;
+border-radius: 25px;
+width: 450px;
+height: 135px;
+
+}
+.button2 {
+padding: 10px 30px;
+background: rgba(184,186,183,255);
+border: none;
+border-radius: 25px;
+width: 450px;
+height: 135px
+
+}
+.container{
+flex-direction: column;
+display: flex;
+}
+.line{
+  background-color:orange;
+  height: 6px;
+  border:none;
+}
+/*Abudhabi*/
+/* Abudhabi*/
+/* Abudhabi */
+/* for standard or Premium */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+  padding: 0 20px;
+  background: rgb(32,32,32);
+}
+::selection{
+  background: rgba(23,162,184,0.3);
+}
+.wrapper{
+ height:700px;
+  width: 100%;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  background:  white;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.wrapper nav{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.wrapper nav label{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+.wrapper nav label:hover{
+  background: orange;
+}
+#home:checked ~ nav label.home,
+#blog:checked ~ nav label.blog,
+  #about:checked ~ nav label.about{
+  color: orange;
+}
+nav label i{
+  padding-right: 7px;
+}
+nav .slider{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: rgb(32,32,32);
+  transition: all 0.3s ease;
+}
+input[type="radio"]{
+  display: none;
+}
+#blog:checked ~ nav .slider{
+  left: 0%;
+}
+
+#Home:checked ~ nav .slider{
+  left: 100%;
+}
+section .content{
+  display: none;
+  background:white;
+}
+#home:checked ~ section .content-1,
+#blog:checked ~ section .content-2{
+  display: block;
+}
+section .content .title{
+  font-size: 21px;
+  font-weight: 500;
+  margin: 30px 0 10px 0;
+}
+section .content p{
+text-align: justify;
+}
+
+/* For no. of hours buttons*/
+
+#id_work_days input[type="checkbox"] {
+  display: none;
+}
+
+#id_work_days span {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 3px;
+  color:black;
+}
+
+#id_work_days input[type="checkbox"]:checked + span {
+  background-color: orange;
+  color: black;
+}
+#rcorners2 {
+  border-radius: 25px;
+  border: 5px solid black;
+  padding: 20px;
+  width: 250px;
+  height: 70px;
+}
+/* for Send Button */
+
+.btn-block {
+      margin-top: 10px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background: rgb(32,32,32) ;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      position: relative;
+      bottom:50px;
+      }
+      button:hover {
+      background:  orange;
+      }
+      button:focus{
+        background-color: darkorange;
+      }
+
+/* For Save button*/
+
+      @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+      a.animated-button.thar-three {
+      	color: #fff;
+      	cursor: pointer;
+        position: relative;
+        left: 10px;
+      	border: 2px solid rgb(32,32,32);
+      	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+      0s;
+      }
+      a.animated-button.thar-three:hover {
+      	color: black ;
+      	background-color:orange ;
+      	text-shadow: nthree;
+
+      }
+
+      a.animated-button.thar-three:before {
+      	content: '';
+      	background: orange;
+      	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+      0s;
+      }
+      a.animated-button.thar-three{
+        background: none;
+        color: black;
+      }

@@ -1,0 +1,19 @@
+#custom-button {
+  padding: 10px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#custom-button:hover {
+  background-color: lightgreen;
+  transition: 0.3s
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: green;
+}
